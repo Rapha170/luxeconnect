@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeConnect</title>
+    <style>
+        :root {
+            --primary-color: #32323D;
+            --secondary-color: #FFFFFF;
+            --accent-color: #D4AF37;
+            --font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            font-family: var(--font-family);
+            color: var(--secondary-color);
+            background-color: var(--primary-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: var(--accent-color);
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: var(--accent-color);
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #3B3B47;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            color: var(--accent-color);
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LuxeConnect</h1>
+        <nav>
+            <a href="#products">Produits</a>
+            <a href="#nfc">Qu'est-ce que le NFC ?</a>
+            <a href="#how-to">Comment ça marche ?</a>
+        </nav>
+    </header>
+
+    <section class="section" id="products">
+        <h2>Nos Produits</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="placeholder.jpg" alt="Support NFC">
+                <h3>Support NFC</h3>
+                <p>Un support élégant et polyvalent pour diffuser vos informations en toute simplicité.</p>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" alt="Sticker NFC">
+                <h3>Sticker NFC</h3>
+                <p>Un sticker discret et performant pour un partage d'informations instantané.</p>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" alt="Carte de visite NFC">
+                <h3>Carte de visite NFC</h3>
+                <p>Offerte avec nos produits, cette carte vous permet de partager vos coordonnées en un geste.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="nfc">
+        <h2>Qu'est-ce que le NFC ?</h2>
+        <p>Le NFC (Near Field Communication) est une technologie sans contact qui permet d'échanger des informations rapidement et simplement en approchant deux appareils compatibles.</p>
+        <p><strong>Avantages :</strong></p>
+        <ul>
+            <li>Simplifiez vos interactions.</li>
+            <li>Partagez vos informations en un seul geste.</li>
+            <li>Réduisez votre impact écologique grâce à des solutions numériques.</li>
+        </ul>
+    </section>
+
+    <section class="section" id="how-to">
+        <h2>Comment ça marche ?</h2>
+        <p><strong>1. Activez votre NFC :</strong> Activez simplement la fonction NFC sur votre téléphone.</p>
+        <p><strong>2. Approchez :</strong> Placez votre téléphone près du produit NFC.</p>
+        <p><strong>3. Connectez :</strong> Découvrez instantanément le contenu partagé.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 LuxeConnect. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
